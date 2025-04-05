@@ -1,0 +1,15 @@
+{
+  "name": "spectral-template",
+  "version": "1.0.0",
+  "description": "Converted HTML5UP Spectral template to Express with EJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.2"
+  }
+}
