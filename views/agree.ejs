@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OTP Confirmation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+        .agree-div{
+            margin-left: 15rem;
+            margin-top: 5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="agree-div">
+        <h2>OTP is coming for your phone number</h2>
+        <p>Would you like to accept the OTP</p>
+
+        <form action="/accept-otp" method="get">
+            <button type="submit">Accept</button>
+        </form>
+        
+        <form action="/" method="get">
+            <button type="submit">Decline</button>
+        </form>
+    </div>
+</body>
+
+</html>
