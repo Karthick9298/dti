@@ -133,7 +133,7 @@ app.post("/validate", async (req,res)=>{
 app.get("/accept-otp", async (req,res)=>{
     let saved = await otp.save(); // ✅ Now otp is the correct object
     console.log(saved);
-    res.send("Otp saved successfully");
+    res.render("dashboard");
 })
 
 
